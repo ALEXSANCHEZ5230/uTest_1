@@ -1,10 +1,9 @@
 package questions;
 
-import com.vladsch.flexmark.ast.util.TextCollectingVisitor;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import userinterface.SearchCoursePage;
+import model.userinterface.SearchCoursePage;
 
 public class Answer implements Question<Boolean> {
     private String question;
