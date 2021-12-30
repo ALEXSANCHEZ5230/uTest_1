@@ -6,15 +6,17 @@ public class uTestData {
     private String strPassword;
     private String strCourse;
 
-        public String getStrUser() {
+    public String getStrUser() {
         return strUser;
     }
 
-    public void setStrUser(String strUser) {
+    public void setStrUser(String strUser)
+    {
         this.strUser = strUser;
     }
 
-    public String getStrPassword() {
+    public String getStrPassword()
+    {
         return strPassword;
     }
 

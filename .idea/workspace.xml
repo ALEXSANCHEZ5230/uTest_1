@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b3e55a-ed64-4c6c-b9c6-e6b63105b22b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/uTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/SearchCoursePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/uTestLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/uTestPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,13 +12,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/userinterface/SearchCoursePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/userinterface/uTestLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/userinterface/uTestPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/questions/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/questions/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tasks/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tasks/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/uTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/uTestData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/tasks/OpenUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tasks/OpenUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tasks/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tasks/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/userinterface/uTestLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/userinterface/uTestLoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/runners.RunnerTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/runners.RunnerTags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/uTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/uTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
@@ -33,17 +25,9 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/userinterface/SearchCoursePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/userinterface/uTestLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/userinterface/uTestPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/uTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/uTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/OpenUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/OpenUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uTestStepDefintions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uTestStepDefintions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/uTestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/uTestLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2587766443619cbcaef6ee93289c91e5384653e69b4231449bedbb1d0ab41eb8.xml" afterDir="false" />
