@@ -4,13 +4,15 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import model.uTestData;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import questions.Answer;
-import tasks.Login;
 import tasks.OpenUp;
 import tasks.Search;
+import java.util.List;
+import tasks.Login;
 
 public class uTestStepDefintions {
     @Before
@@ -19,18 +21,18 @@ public class uTestStepDefintions {
 
     @Given("^than Alex wants to learn automation at the academy uTest$")
     public void thanAlexWantsToLearnAutomationAtTheAcademyUTest() {
-        OnStage.theActorCalled("Alex").wasAbleTo(OpenUp.thePage(), (Login.onThePage()));
+        OnStage.theActorCalled("Alex").wasAbleTo(OpenUp.thePage(),(Login.onThePage()));
 
     }
 
-    @When("^he search course(.*) on the uTest academy platform$")
-    public void heSearchForTheBasicTestsCourseOnTheUTestAcademyPlatform(String course) {
-        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
+    @When("^he search courseon the uTest academy platform$")
+    public void heSearchForTheBasicTestsCourseOnTheUTestAcademyPlatform (List<uTestData> uTestData) throws Exception {
+        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(uTestData.get(0).getStrCourse()));
     }
 
-    @Then("^he find the course (.*)$")
-    public void heFindTheCourseCalledBasicTests(String question) {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.tothe(question)));
+    @Then("^he find the course $")
+    public void heFindTheCourseCalledBasicTests (List<uTestData> uTestData) throws Exception {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.tothe(uTestData.get(0).getStrCourse())));
 
     }
 

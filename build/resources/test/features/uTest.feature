@@ -5,5 +5,11 @@ Feature: uTest
   @scenario1
   Scenario: Find the automation course
     Given than Alex wants to learn automation at the academy uTest
-    When he search for the basic tests course on the uTest academy platform
-    Then he find the course called basic tests
+    | strUser    | strPassword  |
+    | TuUsuario  | TuClave      |
+    When he search for course on the uTest academy platform
+    | strCourse      |
+    | Testing Basics |
+    Then he find the course called
+    | strCourse      |
+    | Testing Basics |

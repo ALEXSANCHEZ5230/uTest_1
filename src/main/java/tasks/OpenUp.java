@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Open;
 
 
 public class OpenUp implements Task {
-    private model.userinterface.uTestPage uTestPage;
+    private userinterface.uTestPage uTestPage;
     public static Performable thePage() {
         return Tasks.instrumented(OpenUp.class);
     }

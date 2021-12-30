@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-12-29T19:00:25" hostname="ALEX" time="0.039">
+<testsuite name="uTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-12-30T01:21:33" hostname="ALEX" time="0.081">
   <properties/>
-  <testcase name="Find the automation course" classname="uTest" time="0.039">
+  <testcase name="Find the automation course" classname="uTest" time="0.081">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@19d1f7e5
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@278d2f42
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2191dc2
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@154182fb
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Find the automation course:Given than Alex wants to learn automation at the academy uTest, When he search for the basic tests course on the uTest academy platform, Then he find the course called basic tests
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Find the automation course:Given than Alex wants to learn automation at the academy uTest, When he search for the basic tests course on the uTest academy platform, Then he find the course called basic tests]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Find the automation course:Given than Alex wants to learn automation at the academy uTest, When he search for the basic tests course on the uTest academy platform, Then he find the course called basic tests]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7ff27498
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@66111e0c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Find the automation course:Given than Alex wants to learn automation at the academy uTest
+| strUser | strPassword |
+| TuUsuario | TuClave |, When he search for course on the uTest academy platform
+| strCourse |
+| Testing Basics |, Then he find the course called
+| strCourse |
+| Testing Basics |
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Find the automation course:Given than Alex wants to learn automation at the academy uTest
+| strUser | strPassword |
+| TuUsuario | TuClave |, When he search for course on the uTest academy platform
+| strCourse |
+| Testing Basics |, Then he find the course called
+| strCourse |
+| Testing Basics |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Find the automation course:Given than Alex wants to learn automation at the academy uTest
+| strUser | strPassword |
+| TuUsuario | TuClave |, When he search for course on the uTest academy platform
+| strCourse |
+| Testing Basics |, Then he find the course called
+| strCourse |
+| Testing Basics |]
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|

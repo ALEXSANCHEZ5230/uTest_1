@@ -3,7 +3,7 @@ package questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import model.userinterface.SearchCoursePage;
+import userinterface.SearchCoursePage;
 
 public class Answer implements Question<Boolean> {
     private String question;

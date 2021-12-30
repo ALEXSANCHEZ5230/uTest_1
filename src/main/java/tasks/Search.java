@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import model.userinterface.SearchCoursePage;
+import userinterface.SearchCoursePage;
 
 
 public class Search implements Task {
